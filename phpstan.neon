@@ -1,0 +1,4 @@
+parameters:
+    paths:
+        - Logger.php
+    level: 8
