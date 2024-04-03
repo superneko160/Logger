@@ -20,10 +20,22 @@ Logger::dumpLog("debug.log", $data);
 ## Test
 
 ```bash
+composer test
+```
+
+or
+
+```bash
 ./vendor/bin/phpunit test
 ```
 
 ## Static Analysis
+
+```bash
+composer cs
+```
+
+or
 
 ```bash
 ./vendor/bin/phpstan
